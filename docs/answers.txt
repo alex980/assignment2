@@ -1,0 +1,38 @@
+Date of accessing Git Lab Tutorials: 02/22/2024
+Name of my GitHub Account: alex980
+Date I created GitHub Account: 10/23/2017
+
+1. Paste the console output you saved at the end of step 3.C
+
+
+2. How many commits have been done to the repository (not only by you, but by anyone) so far?Write the git command you used to get this information.
+
+
+3. When was the README.md  file modified last? Write the git command you used to get this information.
+It was last modified by me on 8:59 PM at 02/23/2024. The original file was last modified on 09/05/2019
+
+4. Mention two reasons why branches are used in a Git repository.
+Parallel Development: Branches allow multiple developers to work on different features or bugs simultaneously without interfering with each other's work. This facilitates parallel development, enabling a more efficient workflow and quicker iterations.
+Feature Isolation: Branches provide isolation for new features or experiments. This allows for testing and refinement in a separate environment, ensuring the main codebase remains stable and unaffected until the new development is ready to be merged.
+
+5. What is the difference between git log and git status?
+The difference between git log and git status is that git log is a command where it's used to view the commit history of a repository. It lists the commits made in reverse chronological order, showing the commit ID, author, date, and commit message. Whereas for git status, it's a command that shows the current state of the working directory and the staging area. It tells you which changes are staged, unstaged, or uncommitted, helping you understand what will be included in the next commit.
+
+6. What command would you use to see the commits where “Vehicle.h” was one of the committed files?
+git log -- <Vehicle.h>
+
+7. What command would you use to see the commits whose commit message contains the word “file”?
+git log --grep="file"
+
+8. In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation?
+Inheritance is a mechanism wherein a new class is derived from an existing class. Polymorphism refers to the ability of different classes to respond to the same message (or method call) in different ways. Encapsulation is the practice of bundling the data (attributes) and methods that operate on the data into a single unit or class.
+
+9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow?
+The main difference between Dictator and Lieutenants is that Dictator model involves a central "dictator" who is responsible for the final project integration, and several "lieutenants" who manage specific parts of the project. Lieutenants review contributions from other developers and submit their approved changes to the dictator. It's hierarchical and helps manage large, complex projects by delegating areas of responsibility.
+
+
+10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow?
+The benefit would come from scalability, specialization, efficiency, and quality control.Scalability makes it so that it better handles the scale of contributions by distributing the review and integration process across lieutenants, preventing bottlenecks that might occur in a centralized model.
+In specialization, Lieutenants can be experts in specific areas of the project, leading to more informed decisions and oversight in those domains.
+In efficiency, dividing the project into sections with dedicated overseers can streamline the development process.
+Quality Control makes it so that it is consistent.
