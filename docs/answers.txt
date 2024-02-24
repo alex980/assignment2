@@ -3,6 +3,10 @@ Name of my GitHub Account: alex980
 Date I created GitHub Account: 10/23/2017
 
 1. Paste the console output you saved at the end of step 3.C
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 
 
 2. How many commits have been done to the repository (not only by you, but by anyone) so far?Write the git command you used to get this information.
