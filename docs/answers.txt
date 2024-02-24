@@ -10,7 +10,7 @@ nothing to commit, working tree clean
 
 
 2. How many commits have been done to the repository (not only by you, but by anyone) so far?Write the git command you used to get this information.
-
+244. By the command: git log <assignment2>
 
 3. When was the README.md  file modified last? Write the git command you used to get this information.
 It was last modified by me on 8:59 PM at 02/23/2024. The original file was last modified on 09/05/2019
